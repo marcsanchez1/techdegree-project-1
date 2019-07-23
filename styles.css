@@ -285,8 +285,7 @@ a.read-more:hover {
 /* READ ME PAGE */
 
 .read-me {
-  margin: 0 30px;
-  padding: 60px 0;
+  padding: 100px 25px;
   text-align: left;
 }
 
@@ -294,10 +293,14 @@ a.read-more:hover {
   width: 100%;
 }
 
-.read-me-headers {
-  margin-top: 40px;
+h2.read-me-headers a {
   text-align: left;
   color: #03440e;
+}
+
+#things-i-enjoy,
+#my-skillz {
+  margin-top: 30px;
 }
 
 /* Styles for larger screens */
@@ -343,11 +346,14 @@ a.read-more:hover {
   .read-me {
     display: flex;
     flex-direction: column;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 100px 25px 0;
   }
 
   .read-me-left {
     float: left;
-    width: 400px;
+    width: 42%;
   }
 
   .read-me img {
@@ -355,7 +361,7 @@ a.read-more:hover {
   }
 
   .read-me-right {
-    width: 800px;
+    width: 55%;
     float: left;
     margin-left: 15px;
   }
